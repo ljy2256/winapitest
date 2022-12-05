@@ -73,7 +73,7 @@ void Player::Update()
 	{
 		CreateBullet();
 	}
-	if (KEY_TAP(KEY::CTRL))
+	if (KEY_TAP(KEY::B))
 	{
 		SoundMgr::GetInst()->Pause(SOUND_CHANNEL::SC_BGM, true);
 	}
